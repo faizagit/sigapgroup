@@ -602,7 +602,8 @@
                   class="tp-caption TM-Button-flat-01 rev-btn primary-background-color-important secondary-background-color-hover-important"
                   href="#"
                   target="_self"
-                  id="slide-13-layer-5"
+                  id="slide-13-layer-5 Getfile"
+                  onclick="downloadPdf()"
                   data-x="['left','left','left','left']"
                   data-hoffset="['0','0','0','9']"
                   data-y="['top','top','top','top']"
@@ -639,7 +640,7 @@
                     -webkit-box-sizing: border-box;
                     text-decoration: none;
                   "
-                  >KIRIM SEKARANG
+                  >FOR MORE
                 </a>
               </div>
             </li>
@@ -2005,5 +2006,37 @@
     <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 
     <!--=====  End of JS files ======-->
+    <script>
+      function downloadPdf() {
+        // alert('a');
+
+        window.open('https://online.flippingbook.com/view/990417101/');
+
+        // $.ajax({
+        //   url: 'https://drive.google.com/file/d/1lMkal6a8XNLSNCqH4TOemeQpupI2ILfG/view?usp=share_link',
+        //   method: 'GET',
+        //   xhrFields: {
+        //     responseType: 'blob',
+        //   },
+        //   success: function (data) {
+        //     var a = document.createElement('a');
+        //     var url = window.URL.createObjectURL(data);
+        //     a.href = url;
+        //     a.download = 'myfile.pdf';
+        //     document.body.append(a);
+        //     a.click();
+        //     a.remove();
+        //     window.URL.revokeObjectURL(url);
+        //   },
+        // });
+      }
+
+      // $(document).ready(function () {
+      //   $('#Getfile').on('click', function () {
+      //     alert('a');
+
+      // });
+      // });
+    </script>
   </body>
 </html>
